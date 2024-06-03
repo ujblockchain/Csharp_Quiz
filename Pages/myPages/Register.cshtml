@@ -1,0 +1,79 @@
+﻿@page
+@model BlockchainQuiz.Pages.myPages.RegisterModel
+@{
+}
+
+<div class="text-center">
+	<h3 class="display-4">Sign up for the quiz</h3>
+</div>
+
+<section class="container">
+	<div class="flex-container">
+		<div class="form">
+			<form method="post">
+
+				<div class="row mb-3">
+					<div class="offset-sm-3 col-sm-6">
+						<input type="text" class="form-control" name="name" placeholder="Username" required />
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="offset-sm-3 col-sm-6">
+						<label for="userType">Choose user type</label>
+						<select class="form-control" name="userType" id="userType" required>
+							<option value="administrator" disabled>Administrator</option>
+							<option value="participant">Participant</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="offset-sm-3 col-sm-6">
+						<input type="password" class="form-control" name="password" placeholder="Password" required />
+					</div>
+				</div>
+
+
+				<div class="row mb-3">
+					<div class="offset-sm-3 col-sm-6">
+						<input type="password" class="form-control" name="confirmPassword" placeholder="Confirm password" required />
+					</div>
+				</div>
+
+
+				<div class="row mb-3">
+					<div class="col-sm-12 text-center">
+						<button type="submit" class="btn btn-primary">Sign up</button>
+					</div>
+				</div>
+
+				@if (Model.getFeed().getErrorMessage().Length > 0)
+				{
+					<div class="row mb-3">
+						<div class="offset-3 col-sm-6">
+							<div class="alert alert-warning alert-dismissible fade show text-danger text-center" role="alert">
+								<strong>@Model.getFeed().getErrorMessage()</strong>
+								<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							</div>
+						</div>
+					</div>
+				}
+
+				@if (Model.getFeed().getSuccessMessage().Length > 0)
+				{
+					<div class="row mb-3">
+						<div class="offset-3 col-sm-6">
+							<div class="alert alert-success alert-dismissible fade show text-success text-center" role="alert">
+								<strong>@Model.getFeed().getSuccessMessage()</strong>
+								<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							</div>
+						</div>
+					</div>
+				}
+
+			</form>
+		</div>
+	</div>
+</section>
+

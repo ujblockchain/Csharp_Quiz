@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p class="text-primary"><i>Want to test your blockchain basics, login for a short quiz</i></p>
+</div>
+
+<section class="container">
+    <div class="flex-container">
+        <div class="form">
+            <form method="post">
+
+				<div class="row mb-3">				
+					<div class="offset-sm-3 col-sm-6">
+						<input type="text" class="form-control" name="name" placeholder="Username" required/>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="offset-sm-3 col-sm-6">
+						<input type="password" class="form-control" name="password" placeholder="Password" required />
+					</div>
+				</div>
+
+
+				<div class="row mb-3">
+					<div class="col-sm-12 text-center">
+						<button type="submit" class="btn btn-primary">Login</button> &nbsp;
+						<a class="btn btn-outline-primary" href="/myPages/Register"<i>Sign up</i></a>
+					</div>				
+				</div>
+
+				@if (Model.getFeed().getErrorMessage().Length > 0)
+				{
+					<div class="row mb-3">
+						<div class="offset-3 col-sm-6">
+							<div class="alert alert-warning alert-dismissible fade show text-danger text-center" role="alert">
+								<strong>@Model.getFeed().getErrorMessage()</strong>
+								<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+							</div>
+						</div>
+					</div>
+				}
+
+            </form>
+        </div>
+    </div>
+</section>

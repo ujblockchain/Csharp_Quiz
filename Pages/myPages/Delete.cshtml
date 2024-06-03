@@ -1,0 +1,38 @@
+﻿@page
+@using System.Data.SqlClient;
+@{
+	try
+	{
+		String id = Request.Query["id"];
+		String connectionString = "Server=TANKISO-LTP\\SQLEXPRESS;Database=blockchainQuizzDatabase;Trusted_Connection=True;";
+
+		using (SqlConnection connection = new SqlConnection(connectionString))
+		{
+			connection.Open();
+
+			String sql1 = "DELETE FROM Participant WHERE participant_id=@id";
+			using (SqlCommand command = new SqlCommand(sql1, connection))
+			{
+				command.Parameters.AddWithValue("@id", id);
+				command.ExecuteNonQuery();
+			}
+
+			String sql2 = "DELETE FROM Users WHERE id=@id";
+			using (SqlCommand command = new SqlCommand(sql2, connection))
+			{
+				command.Parameters.AddWithValue("@id", id);
+				command.ExecuteNonQuery();
+			}
+
+			
+
+		}
+	}
+	catch (Exception ex)
+	{
+		Console.WriteLine(ex.Message);
+	}
+
+	Response.Redirect("/myPages/AdminView");
+}
+

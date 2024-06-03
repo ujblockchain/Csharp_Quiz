@@ -1,0 +1,75 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlockchainQuiz
+build_property.RootNamespace = BlockchainQuiz
+build_property.ProjectDir = C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/AdminView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xBZG1pblZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/ParticipantView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xQYXJ0aWNpcGFudFZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/QuizEnd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xRdWl6RW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/myPages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbXlQYWdlc1xSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tankiso/Desktop/BlockchainQuiz/BlockchainQuiz/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-w7u3zgwx16

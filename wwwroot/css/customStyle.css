@@ -1,0 +1,120 @@
+﻿.flex-container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin:30px;
+}
+
+.flex-container > div {
+    width: 60%;
+    height: 50%;
+    background-color: lightcyan;
+    align-content:center;
+}
+
+.markSection {
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.markSection > div {
+    background-color: lightcyan;
+    text-align:center;
+    padding:10px;
+}
+
+.flex-container > div > form {
+    text-align:center;
+    margin:20px;
+}
+
+.adminAction {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: lightcyan;
+    height:100px;
+}
+
+.adminAction > div {
+    flex: 1;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 100px;
+    margin: 20px;
+}
+
+.grid-container > div {       
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.question {
+    background-color: lightcyan;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.select {
+    background-color: lightcyan;
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+
+.menu{
+    display:flex;
+    justify-content:center;
+    column-gap:200px;
+}
+
+.menu > div{
+    height:100px;
+    margin:10px;
+}
+
+.circle-mark {
+    border: 1.5px solid lightcyan;
+    border-radius: 50%;
+    background-color: lightcyan;
+    padding: 2.5px;
+}
+
+.grid-container-quiz {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 100px;
+    margin: 20px;
+}
+
+.grid-container-quiz > div {
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width:400px;
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    padding:5px;
+}
+
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+

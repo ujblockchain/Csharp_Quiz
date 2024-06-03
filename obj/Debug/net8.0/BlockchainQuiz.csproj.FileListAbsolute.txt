@@ -1,0 +1,50 @@
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\appsettings.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\BlockchainQuiz.staticwebassets.runtime.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\BlockchainQuiz.exe
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\BlockchainQuiz.deps.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\BlockchainQuiz.runtimeconfig.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\BlockchainQuiz.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\BlockchainQuiz.pdb
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.AssemblyInfoInputs.cache
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.AssemblyInfo.cs
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.csproj.CoreCompileInputs.cache
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.RazorAssemblyInfo.cache
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.RazorAssemblyInfo.cs
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.sourcelink.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets\msbuild.BlockchainQuiz.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets\msbuild.build.BlockchainQuiz.props
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlockchainQuiz.props
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlockchainQuiz.props
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\scopedcss\bundle\BlockchainQuiz.styles.css
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\scopedcss\projectbundle\BlockchainQuiz.bundle.scp.css
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\refint\BlockchainQuiz.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.pdb
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.genruntimeconfig.cache
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\ref\BlockchainQuiz.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.csproj.AssemblyReference.cache
+C:\Users\Tankiso\Desktop\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\Blockcha.83D90E39.Up2Date
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.csproj.AssemblyReference.cache
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.GeneratedMSBuildEditorConfig.editorconfig
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.AssemblyInfoInputs.cache
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.AssemblyInfo.cs
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.csproj.CoreCompileInputs.cache
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.MvcApplicationPartsAssemblyInfo.cache
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.RazorAssemblyInfo.cache
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.RazorAssemblyInfo.cs
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.dll
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\refint\BlockchainQuiz.dll
+G:\My Drive\Academics\Masters studies\BlockchainQuiz\BlockchainQuiz\obj\Debug\net8.0\BlockchainQuiz.pdb

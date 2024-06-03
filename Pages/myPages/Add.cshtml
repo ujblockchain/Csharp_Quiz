@@ -1,0 +1,66 @@
+﻿@page
+@model BlockchainQuiz.Pages.myPages.AddModel
+@{
+}
+
+<section id="addPage">
+	<h3 class="text-center">Set Quiz</h3>
+	<form method="post">
+		<div class="grid-container">
+			<div class="question">
+				<input type="text" class="form-control" name="question" placeholder="Set the question" required />
+			</div>
+			<div>
+				<input type="text" class="form-control" name="option1" placeholder="Set option one" required />
+			</div>
+			<div>
+				<input type="text" class="form-control" name="option2" placeholder="Set option two" required />
+			</div>
+			<div>
+				<input type="text" class="form-control" name="option3" placeholder="Set option three" required />
+			</div>
+			<div>
+				<input type="text" class="form-control" name="option4" placeholder="Set option four" required />
+			</div>
+
+			<div class="select">
+			<label for="correct">Set the correct option</label>
+			<select id="correct" name="correct">
+				<option value="option1" selected>Option one</option>
+				<option value="option2">Option two</option>
+				<option value="option3">Option three</option>
+				<option value="option4">Option four</option>
+			</select>		
+		  </div>
+		</div>
+
+		<div class="text-center p-6">
+			<button type="submit" class="btn btn-primary m-2">Add</button>
+			<a class="btn btn-outline-danger m-2" href="/myPages/AdminView">Quit</a>
+		</div>
+
+		@if (Model.getFeed().getErrorMessage().Length > 0)
+		{
+			<div class="row mb-3">
+				<div class="offset-3 col-sm-6">
+					<div class="alert alert-warning alert-dismissible fade show text-danger text-center" role="alert">
+						<strong>@Model.getFeed().getErrorMessage()</strong>
+						<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+					</div>
+				</div>
+			</div>
+		}
+
+		@if (Model.getFeed().getSuccessMessage().Length > 0)
+		{
+			<div class="row mb-3">
+				<div class="offset-3 col-sm-6">
+					<div class="alert alert-success alert-dismissible fade show text-success text-center" role="alert">
+						<strong>@Model.getFeed().getSuccessMessage()</strong>
+						<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+					</div>
+				</div>
+			</div>
+		}
+	</form>
+</section>

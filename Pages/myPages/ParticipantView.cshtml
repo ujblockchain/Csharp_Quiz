@@ -1,0 +1,108 @@
+﻿@page
+@model BlockchainQuiz.Pages.myPages.ParticipantViewModel
+@{
+	var item = Model.getSingleOption();
+}
+
+@functions{
+
+	public string correctDivision(string Cor)
+	{
+		if (Cor == "option1")
+		{
+			return "#option1";
+		}
+		else if (Cor == "option2")
+		{
+			return "#option2";
+		}
+		else if (Cor == "option3")
+		{
+			return "#option3";		
+		}
+		else
+		{
+			return "#option4";
+		}
+	}
+}
+
+<section id="participantView">
+	<div class="menu">
+		<div class="welcome">
+			Welcome @Model.GetParticipant().getName(), test your blockchain basics.				
+		</div>
+
+		<div class="marks">
+			<span>Status:&nbsp;</span>
+			<span class="circle-mark">
+				<b class="text-info m-2">@Model.GetParticipant().getStatus()</b>
+			</span>
+		</div>
+
+	</div>
+
+	
+	<div class="grid-container-quiz">
+
+		@if(item != null)
+		{
+			<div class="question text-center">
+				<label class="mt-4">@item.getQn()</label>
+			</div>
+			<div id="option1">
+				<button Onclick="RazorFunctionA()" id="btnA" class="btn btn-outline-info mt-4">@item.getA()</button>
+			</div>
+			<div id="option2">
+				<button Onclick="RazorFunctionB()" id="btnB" class="btn btn-outline-info mt-4">@item.getB()</button>
+			</div>
+			<div id="option3">
+				<button Onclick="RazorFunctionC()" id="btnC" class="btn btn-outline-info mt-4">@item.getC()</button>
+			</div>
+			<div id="option4">
+				<button Onclick="RazorFunctionD()" id="btnD" class="btn btn-outline-info mt-4">@item.getD()</button>
+			</div>
+		}	
+	</div>	
+
+	<div class="text-center">
+		<form method="post">			
+			<input hidden name="id" type="number" value="@Model.GetParticipant().getId()" />
+			<input hidden name="no" type="number" value="@Model.getN()" />
+			<button id="next" type="submit" class="btn btn-outline-success"><img src="/download.png" width="45px" height="45px" /></button>
+		</form>		
+	</div>
+
+</section>
+
+@section Scripts{
+	<script>
+		function Colouring() {
+			$('#option1').css("background-color", "red");
+			$('#option2').css("background-color", "red");
+			$('#option3').css("background-color", "red");
+			$('#option4').css("background-color", "red");
+		}
+
+		function RazorFunctionA(){
+			Colouring();
+			$('@correctDivision(item.getCorrect())').css("background-color", "green");
+		}
+
+		function RazorFunctionB(){
+			Colouring();
+			$('@correctDivision(item.getCorrect())').css("background-color", "green");
+		}
+
+		function RazorFunctionC(){
+			Colouring();
+			$('@correctDivision(item.getCorrect())').css("background-color", "green");
+		}
+
+		function RazorFunctionD() {
+			Colouring();
+			$('@correctDivision(item.getCorrect())').css("background-color", "green");
+		}
+    </script>
+
+}

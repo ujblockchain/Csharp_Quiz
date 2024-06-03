@@ -1,0 +1,58 @@
+﻿@page
+@model BlockchainQuiz.Pages.myPages.AdminViewModel
+@{
+}
+
+<section class="container">
+	<div class="adminAction">
+		<div class="add">
+			<a href="/myPages/Add" class="btn btn-primary">Add question</a>			
+		</div>
+
+		<div class="edit">
+
+			<div class="dropdown">
+				<button class="btn btn-primary">Edit questions</button>
+				<div class="dropdown-options">
+
+					@for (var i = 0; i < Model.getOptions().Count(); i++)
+					{
+						<a class="btn btn-primary m-1" href="/myPages/Edit?id=@Model.getOptions()[i].getId()">@Model.getOptions()[i].getQn()</a>
+					}
+
+				</div>
+			</div>		
+		</div>		
+	</div>
+	
+	<br />
+	<h2 class="text-center text-dark">Participant Results</h2>
+
+	<table class="table table-bordered text-dark">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Name</th>
+				<th>Status</th>
+				<th></th>
+			</tr>
+		</thead>
+
+		<tbody>
+			@foreach (var part in Model.getParticipants())
+			{
+				<tr class="text-dark">
+					<td>@part.getId()</td>
+					<td>@part.getName()</td>
+					<td>@part.getStatus()</td>
+					
+					<td class="text-center">
+						<a class="btn btn-danger btn-sm" href="/myPages/Delete?id=@part.getId()">Delete</a>
+					</td>
+				</tr>
+			}
+
+		</tbody>
+
+	</table>
+</section>
